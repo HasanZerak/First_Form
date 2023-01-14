@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Styling basics: Task 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend> Contact</legend>
+      <ul>
+        <li>
+          <label for="e-mail">E-mail</label> <br>
+          <input type="email" id="e-mail" name="e-mail" placeholder="Enter your email here E-mail">
+        </li>
+        <li>
+          <label for="website">Website</label> <br>
+          <input type="url" id="website" name="website" placeholder="Link to your Website">
+        </li>
+        <li>
+          <label for="phone">Phone Number</label> <br>
+          <input type="tel" id="phone" maxlength="10" name="phone" placeholder="Enter your phone number here">
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <ul>
+        <legend>Preference</legend>
+        <li>
+          <label class="preference" for="food">Favorite food:</label>
+          <select class="preference" name="food" id="food">
+            <option>Salad</option>
+            <option>Curry</option>
+            <option>Pizza</option>
+            <option>Fajitas</option>
+          </select>
+        </li>
+        <li>
+          <button type="submit">Update preferences</button>
+        </li>
+      </ul>
+    </fieldset>
+  </form>
+</body>
+
+</html>
